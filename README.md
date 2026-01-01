@@ -1,14 +1,17 @@
+# 说明
+项目参照开源项目[hello-agents](https://github.com/RainbowYv/hello-agents)第13实战项目进行改进
+原开源代码使用hello-agents自构建框架实现，本人参照其源码使用langchain框架在其基础上进行修改。
+
 # 项目结构
 
 ```text
 trip-planner/
 ├── backend/                    # 后端代码
-│   ├── app/
-│   │   ├── agents/            # 智能体实现
-│   │   ├── api/               # API路由
-│   │   ├── models/            # 数据模型
-│   │   ├── services/          # 服务层
-│   │   └── config.py          # 配置文件
+│   ├── agents/            # 智能体实现
+│   ├── api/               # API路由
+│   ├── models/            # 数据模型
+│   ├── services/          # 服务层
+│   ├── config.py          # 配置文件
 │   └── requirements.txt       # Python依赖
 │
 └── frontend/                   # 前端代码
@@ -20,9 +23,4 @@ trip-planner/
     └── package.json           # npm依赖
 ```
 
-# agent
-- AttractionSearchAgent 景点搜索专家
-- WeatherQueryAgent 天气查询专家
-- HotelAgent 酒店推荐专家
-- PlannerAgent 行程规划专家
 
