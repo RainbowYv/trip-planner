@@ -19,3 +19,10 @@ trip-planner/
     │   └── router/            # 路由配置
     └── package.json           # npm依赖
 ```
+
+# agent
+- AttractionSearchAgent 景点搜索专家
+- WeatherQueryAgent 天气查询专家
+- HotelAgent 酒店推荐专家
+- PlannerAgent 行程规划专家
+
