@@ -8,7 +8,9 @@
 - LLM 的 API(OpenAI、DeepSeek 等)
 - 高德地图 Web 服务 Key：访问 https://console.amap.com/ 注册并创建应用
 - Unsplash Access Key：访问 https://unsplash.com/developers 注册并创建应用
-将所有 API 密钥放入.env文件。
+
+将所有 API 密钥放入.env文件。 
+
 启动后端：
 ```text
 # 1. 进入后端目录
@@ -27,7 +29,9 @@ uvicorn app.api.main:app --reload
 python run.py
 ```
 成功启动后，访问 http://localhost:8000/docs 可以看到 API 文档
+
 启动前端：
+
 ```text
 # 1. 进入前端目录
 cd trip-planner/frontend
